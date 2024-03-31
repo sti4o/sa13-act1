@@ -1,0 +1,66 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+.menu {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+.category {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+.category h2 {
+    margin: 0;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #f7f3f3;
+    padding: 5px 0;
+}
+
+.item:last-child {
+    border: none;
+}
+
+.item-name {
+    
+    font-size: 18px;
+    color: #f3ecec;
+}
+
+.item-price {
+    font-size: 18px;
+    color: #f3ecec;
+}
+
+.item-description {
+    font-size: 14px;
+    color: #f3ecec;
+    margin-top: 5px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 24px;
+    color: #000; /* Updated color to black */
+    margin: 0;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+}
